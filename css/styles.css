@@ -1,3 +1,21 @@
 :root {
 
 }
+
+
+
+.customJumbo {
+    background-color: brown;
+    justify-content: space-around;
+}
+
+.customJumbo img {
+    max-width: 300px;
+}
+
+
+/* Typography */
+
+h1 {
+font-size: 5rem
+}
