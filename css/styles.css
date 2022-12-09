@@ -6,7 +6,7 @@
 
 .customJumbo {
     background-color: brown;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .customJumbo img {
@@ -15,7 +15,10 @@
 
 
 /* Typography */
-
-h1 {
+.name {
 font-size: 5rem
 }
+
+.customJumbo {
+    color: antiquewhite;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;}
