@@ -18,7 +18,7 @@
     justify-content: center;
 }
 
-/* Typography */
+
 .name {
 font-size: 5rem
 }
@@ -27,12 +27,32 @@ font-size: 5rem
     color: antiquewhite;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;}
 
-.main-section {
-    width: 85%;
-    margin: 0 auto;
+
+
+
+.projects {
+    
+    padding: auto;
     justify-content: center;
+    background-color: brown;
 }
 
 .section-header {
     text-align: center;
+}
+
+
+.about {
+    justify-content: space-around;
+    margin: 15vw auto;
+}
+
+
+.skills {
+    justify-content: center;
+}
+
+.custom-card {
+    margin: 1vw;
+
 }
