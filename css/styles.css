@@ -1,17 +1,20 @@
 :root {
---mainDark: brown;
---mainLight: antiquewhite;
-
+--headerDark: #283618;
+--headerLight: #DDA15E;
+--main1: #606C38;
+--main2: #BC6C25;
+--lightColor: #FEFAE0;
 }
 
 .customNav {
-    background-color: var(--mainLight);
+    background-color: var(--);
 }
 
 
 .customJumbo {
     background-color: var(--mainDark);
     justify-content: center;
+    background: url(https://static.vecteezy.com/system/resources/previews/001/431/920/original/abstract-green-background-free-vector.jpg);
 }
 
 .customJumbo img {
@@ -38,6 +41,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;}
 
 .section-header {
     text-align: center;
+    padding: 30px;
 }
 
 
@@ -65,12 +69,18 @@ body {
 }
 
 .projects {
-    
-    padding: auto;
+    padding-bottom: 50px;
     justify-content: center;
     background-color: var(--mainDark);
 }
 
 .contacts {
     justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+/* ---------- Footer -------------- */
+
+footer img {
+    max-width: 100px;
 }
