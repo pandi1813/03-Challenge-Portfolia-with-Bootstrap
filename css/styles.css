@@ -6,15 +6,26 @@
 --lightColor: #FEFAE0;
 }
 
-.customNav {
-    background-color: var(--);
+.customNavbar {
+    background-color: var(--headerLight);
+}
+ 
+nav a {
+    border-radius: 5px;
+    color: var(--headerDark);
+}
+nav a:hover {
+    background-color: var(--headerDark);
+    color: var(--lightColor);
 }
 
 
 .customJumbo {
     background-color: var(--mainDark);
     justify-content: center;
-    background: url(https://static.vecteezy.com/system/resources/previews/001/431/920/original/abstract-green-background-free-vector.jpg);
+    background: url(https://t3.ftcdn.net/jpg/04/87/28/94/360_F_487289428_cf0CSd7i3R0FrDdyl7rEawy1h1WmUbWp.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .customJumbo img {
@@ -26,6 +37,9 @@
     justify-content: center;
 }
 
+header h1, p {
+    color: var(--headerLight);
+}
 
 .name {
 font-size: 5rem
@@ -47,7 +61,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;}
 
 
 body {
-    background-color: var(--mainLight);
+    background-color: var(--lightColor);
     font-family: Arial, Helvetica, sans-serif;
 }
 
