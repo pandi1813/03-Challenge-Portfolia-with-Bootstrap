@@ -16,17 +16,19 @@ nav a {
     color: var(--headerDark);
 }
 nav a:hover {
-    background-color: var(--headerDark);
+    background-color: var(--main2);
     color: var(--lightColor);
 }
 
 
 .customJumbo {
-    background-color: var(--mainDark);
+    /* background-color: var(--mainDark); */
     justify-content: center;
-    background: url(https://t3.ftcdn.net/jpg/04/87/28/94/360_F_487289428_cf0CSd7i3R0FrDdyl7rEawy1h1WmUbWp.jpg);
+    background: url(../images/header-bg.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
+    color: var(--mainLight);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
 }
 
 .customJumbo img {
@@ -46,19 +48,18 @@ header h1, p {
 font-size: 5rem
 }
 
-.customJumbo {
-    color: var(--mainLight);
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;}
+
+
+/* ------------- Main ------------------- */
 
 
 
-
+/* Generic rules */
 
 .section-header {
     text-align: center;
     padding: 30px;
 }
-
 
 
 body {
@@ -71,6 +72,10 @@ border: var(--headerDark) solid 2px;
 width: 90%;
 }
 
+
+/* About & Skills */
+
+
 .about {
     justify-content: space-around;
     margin: 15vw auto;
@@ -81,23 +86,47 @@ width: 90%;
     justify-content: center;
 }
 
-.custom-card {
-    margin: 1vw;
-    background-color: var(--mainLight);
-    border-radius: 15px;
-}
+
+
+
+/* Projects */
 
 .projects {
     padding-bottom: 50px;
     justify-content: center;
 }
 
-.contacts {
-    justify-content: space-evenly;
-    margin-bottom: 20px;
+.custom-card {
+    margin: 2vw;
+    padding: 15px;
+    background-color: var(--headerLight);
+    border-radius: 15px;
+    border: var(--main2) solid 4px;
 }
 
+.custom-card img {
+    border-radius: 15px;
+    border: var(--main2) solid 2px;
+}
+
+
+.custom-card h4, p {
+    color: var(--headerDark);
+}
+
+cus
+
+
+
+
 /* ---------- Footer -------------- */
+
+
+
+.contacts {
+    justify-content: space-evenly;
+    margin-bottom: 20px;}
+
 
 footer img {
     max-width: 100px;
