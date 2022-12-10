@@ -3,6 +3,7 @@
 --headerLight: #DDA15E;
 --main1: #606C38;
 --main2: #BC6C25;
+--mainLighter: #DD9455;
 --lightColor: #FEFAE0;
 }
 
@@ -65,6 +66,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+hr {
+border: var(--headerDark) solid 2px;
+width: 90%;
+}
 
 .about {
     justify-content: space-around;
@@ -85,7 +90,6 @@ body {
 .projects {
     padding-bottom: 50px;
     justify-content: center;
-    background-color: var(--mainDark);
 }
 
 .contacts {
@@ -97,4 +101,12 @@ body {
 
 footer img {
     max-width: 100px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+footer a:hover {
+    background-color: var(--main1);
+    border: var(--main2) solid 2px;
+    border-radius: 20px;
 }
