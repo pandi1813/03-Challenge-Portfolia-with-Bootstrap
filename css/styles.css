@@ -70,3 +70,7 @@ body {
     justify-content: center;
     background-color: var(--mainDark);
 }
+
+.contacts {
+    justify-content: space-evenly;
+}
