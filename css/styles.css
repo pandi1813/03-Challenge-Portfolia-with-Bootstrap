@@ -40,7 +40,10 @@ nav a:hover {
     justify-content: center;
 }
 
-header h1, p {
+header h1 {
+    color: var(--headerLight);
+}
+header p {
     color: var(--headerLight);
 }
 
@@ -114,8 +117,6 @@ width: 90%;
     color: var(--headerDark);
 }
 
-cus
-
 
 
 
@@ -123,7 +124,7 @@ cus
 
 
 
-.contacts {
+.contact {
     justify-content: space-evenly;
     margin-bottom: 20px;}
 
@@ -135,7 +136,7 @@ footer img {
 }
 
 footer a:hover {
-    background-color: var(--main1);
+    background-color: var(--mainLighter);
     border: var(--main2) solid 2px;
     border-radius: 20px;
 }
